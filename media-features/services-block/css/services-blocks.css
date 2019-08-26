@@ -3,5 +3,27 @@
 }
 
 .post__name {
+  margin: auto;
+
   font-size: 1.5em;
+}
+
+@media screen and (min-width: 481px) {
+  .section__header {
+    font-size: 12px;
+  }
+
+  .post {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section__header {
+    font-size: 10px;
+  }
+
+  .post {
+    font-size: 12px;
+  }
 }
